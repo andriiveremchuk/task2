@@ -1,0 +1,29 @@
+@media screen and (max-width: 340px) {
+
+    .navbar {
+        height: 100%;
+
+        &__items {
+            display: grid;
+            grid-gap: 5px;
+
+        }
+    }
+
+    .main {
+
+        &__header {
+
+            &__status {
+
+                &__text {
+                    font-size: 7px;
+                }
+
+                &__content {
+                    font-size: 7px
+                }
+            }
+        }
+    }
+}

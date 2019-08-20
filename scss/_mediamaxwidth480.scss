@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+
+    .header {
+        justify-content: space-around;
+    }
+
+    .navbar {
+        justify-content: space-around;
+
+        &__items {
+            width: 70%;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .main {
+
+        &__gallery {
+
+            grid-template-columns: repeat(4, 73px);
+            grid-gap: 7px;
+            grid-auto-rows: minmax(73px, auto);
+    
+            &__imageone {
+                width: 313px;
+                grid-column: 1 / 5;
+                grid-row: 1 / 4;
+            }
+    
+            &__imagetwo {
+                width: 73px;
+                grid-column: 1;
+                grid-row: 4;
+            }
+    
+            &__imagethree {
+                width: 73px;
+                grid-column: 2;
+                grid-row: 4;
+            }
+    
+            &__imagefour {
+                width: 73px;
+                grid-column: 3;
+                grid-row: 4;
+            }
+    
+            &__imagefive {
+                width: 73px;
+                grid-column: 4;
+                grid-row: 4;
+            }
+        }
+    }
+}
